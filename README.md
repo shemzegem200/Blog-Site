@@ -18,3 +18,29 @@ Technologies Used:
     bcrypt: Library for password hashing and encryption.
     Cookies: Utilized for session management by storing tokens.
 
+FOLDERS:
+
+- api: for backend REST API endpoints. Node, Express and MongoDB used
+      - models: Schemas for mongoose databases
+          - Post.js
+          - User.js
+      - uploads: folder with all images uploaded in the posts
+      - index.js: all routes and database connection backend occurs here
+  
+- blog-site: for entore frontend application in React
+      - src: contains all source code
+          - pages: folder contains all the individual pages
+              - CreatePost.js
+              - EditPost.js
+              - IndexPage.js
+              - LoginPage.js
+              - PostDeleteButton.js
+              - PostPage.js
+              - RegisterPage.js
+        - App.js
+        - App.css
+        - Header.js
+        - Layout.js
+        - Post.js
+        - UserContext.js
+        - index.js
